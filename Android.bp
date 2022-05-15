@@ -241,18 +241,18 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "manifest_engsensor",
+	name: "manifest_oplus_orms",
 	owner: "realme",
-	src: "proprietary/odm/etc/vintf/manifest/manifest_engsensor.xml",
+	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_orms.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	device_specific: true,
 }
 
 prebuilt_etc_xml {
-	name: "manifest_oplus_orms",
+	name: "manifest_engsensor",
 	owner: "realme",
-	src: "proprietary/odm/etc/vintf/manifest/manifest_oplus_orms.xml",
+	src: "proprietary/odm/etc/vintf/manifest/manifest_engsensor.xml",
 	filename_from_src: true,
 	sub_dir: "vintf/manifest",
 	device_specific: true,
